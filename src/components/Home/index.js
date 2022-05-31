@@ -63,7 +63,7 @@ const Home = () => {
         </div>
       </div>
 
-      <Loader type="ball-clip-rotate-multiple" />
+      <Loader type="pacman" />
     </>
   )
 }
