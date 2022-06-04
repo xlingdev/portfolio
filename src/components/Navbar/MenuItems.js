@@ -1,22 +1,22 @@
 const MenuItems = [
     {
         title: 'Home',
-        url: '#',
+        url: '/',
         cName: 'nav-links'
     },
     {
         title: 'Portfolio',
-        url: '#',
+        url: 'portfolio',
         cName: 'nav-links'
     },
     {
-        title: 'Links',
-        url: '#',
+        title: 'About',
+        url: 'about',
         cName: 'nav-links'
     },
     {
         title: 'Contact',
-        url: '#',
+        url: 'contact',
         cName: 'nav-links-mobile'
     },
 ]
