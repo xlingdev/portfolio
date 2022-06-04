@@ -21,4 +21,4 @@ const MenuItems = [
     },
 ]
 
-export default MenuItems;
+export default { MenuItems };
