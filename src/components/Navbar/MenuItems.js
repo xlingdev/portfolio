@@ -20,3 +20,5 @@ const MenuItems = [
         cName: 'nav-links'
     },
 ]
+
+export default MenuItems;
