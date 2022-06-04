@@ -9,14 +9,16 @@
 
 .navbar-logo {
     color: #fff;
-    justify-self: start;
+    justify-self: left;
     margin-left: 20px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .fa-code {
     margin-left: 0.5rem;
     font-size: 1.6rem;
+    justify-content: left;
 }
 
 .nav-menu {
@@ -27,7 +29,7 @@
     text-align: center;
     width: 70vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 0rem;
 }
 
 .nav-links {
@@ -96,7 +98,8 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(25%, 50%);
+        transform: translate(0%, 66.666%);
+        white-space: nowrap;
     }
 
     .menu-icon {
