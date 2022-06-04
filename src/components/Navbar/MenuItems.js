@@ -17,7 +17,7 @@ const MenuItems = [
     {
         title: 'Contact',
         url: '#',
-        cName: 'nav-links'
+        cName: 'nav-links-mobile'
     },
 ]
 
