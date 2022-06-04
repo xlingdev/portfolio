@@ -3,6 +3,10 @@ import { MenuItems } from './MenuItems'
 import './Navbar.css'
 
 class Navbar extends Component {
+    state = { clicked: false }
+
+
+
     render() {
         return(
             <nav className="NavbarItems">
@@ -11,8 +15,10 @@ class Navbar extends Component {
 
                     </i>
                 </h1>
-                <div className="menu-icon">
-                    
+                <div className="menu-icon" onClick={this.handleClick}>
+                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}>
+
+                    </i>
                 </div>
                 <ul>
                     {MenuItems.map((item, index) => {
@@ -22,7 +28,7 @@ class Navbar extends Component {
                                 {item.title}
                                 </a>
                             </li>
-                        );
+                        )
                     })}
                 </ul>
             </nav>
