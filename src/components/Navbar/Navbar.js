@@ -14,8 +14,8 @@ class Navbar extends Component {
         return(
             <nav className="NavbarItems">
                 <h1 className="navbar-logo">Knox Lingenfelter
-                    <i class="fa-solid fa-code-simple"></i>
-                </h1>
+                    <i className="fa-solid fa-code-simple"></i>
+                </h1>   
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}>
 
