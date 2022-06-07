@@ -11,6 +11,7 @@
     color: #fff;
     justify-self: left;
     margin-left: 20px;
+    margin-right:10px;
     cursor: pointer;
     white-space: nowrap;
 }
@@ -100,6 +101,7 @@
         left: 0;
         transform: translate(0%, 35%);
         white-space: nowrap;
+        margin-right: 20px;
     }
 
     .menu-icon {
