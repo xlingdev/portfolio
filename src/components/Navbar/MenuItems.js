@@ -10,13 +10,18 @@ const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'About',
-        url: 'about',
+        title: 'Experience',
+        url: 'experience',
         cName: 'nav-links'
     },
     {
         title: 'Contact',
         url: 'contact',
+        cName: 'nav-links'
+    },
+    {
+        title: 'Resume',
+        url: '/files/resume.pdf',
         cName: 'nav-links-mobile'
     },
 ]
