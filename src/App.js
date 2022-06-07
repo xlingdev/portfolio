@@ -1,5 +1,4 @@
 import React from 'react';
-import PreLoader1 from './components/PreLoader1';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Experience from './components/Experience/Experience';
