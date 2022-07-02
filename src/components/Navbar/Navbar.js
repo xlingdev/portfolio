@@ -33,7 +33,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Link to='/contact'>
+                <Link to='/resume'>
                 <Button>Resume</Button>
                 </Link>
 

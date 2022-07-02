@@ -5,7 +5,7 @@ import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Home from './components/Home/Home';
-
+import Resume from './components/Resume/Resume';
 import './App.css';
 //hi
 function App() {
@@ -19,6 +19,7 @@ function App() {
                     <Route path="/portfolio" element={<Portfolio />}/>
                     <Route path="/experience" element={<Experience />}/>
                     <Route path="/contact" element={<Contact />}/>
+                    <Route path='/resume' element={<Resume />}/>
                     </Routes>
       </div>
     </Router>
